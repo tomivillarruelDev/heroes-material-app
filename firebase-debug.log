@@ -1,0 +1,47 @@
+[debug] [2024-02-03T17:43:43.559Z] ----------------------------------------------------------------------
+[debug] [2024-02-03T17:43:43.563Z] Command:       /home/tomivillarruel/.nvm/versions/node/v20.5.1/bin/node /home/tomivillarruel/.nvm/versions/node/v20.5.1/bin/firebase init hosting
+[debug] [2024-02-03T17:43:43.563Z] CLI Version:   13.0.1
+[debug] [2024-02-03T17:43:43.563Z] Platform:      linux
+[debug] [2024-02-03T17:43:43.564Z] Node Version:  v20.5.1
+[debug] [2024-02-03T17:43:43.564Z] Time:          Sat Feb 03 2024 14:43:43 GMT-0300 (Argentina Standard Time)
+[debug] [2024-02-03T17:43:43.564Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-03T17:43:43.652Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-03T17:43:43.653Z] > authorizing via signed-in user (tomasvillarruel18@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/tomivillarruel/angular/prueba-de-angular/angularUDEMY/Fernando-Herrera-Angular-de-0-a-Experto-2023/seccion-13/heroesApp
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-03T17:43:43.658Z] Using project from CLI flag: comic-app-32415
+[debug] [2024-02-03T17:43:43.662Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/comic-app-32415 [none]
+[debug] [2024-02-03T17:43:44.191Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/comic-app-32415 200
+[debug] [2024-02-03T17:43:44.192Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/comic-app-32415 {"projectId":"comic-app-32415","projectNumber":"791389055832","displayName":"comic-app","name":"projects/comic-app-32415","resources":{"hostingSite":"comic-app-32415","realtimeDatabaseInstance":"comic-app-32415-default-rtdb"},"state":"ACTIVE","etag":"1_73cfa12f-cfd0-4301-9be3-527792f2b9b0"}
+[info] i  Using project comic-app-32415 (comic-app) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-03T17:43:44.222Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/comic-app-32415 [none]
+[debug] [2024-02-03T17:43:44.529Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/comic-app-32415 200
+[debug] [2024-02-03T17:43:44.529Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/comic-app-32415 {"projectId":"comic-app-32415","projectNumber":"791389055832","displayName":"comic-app","name":"projects/comic-app-32415","resources":{"hostingSite":"comic-app-32415","realtimeDatabaseInstance":"comic-app-32415-default-rtdb"},"state":"ACTIVE","etag":"1_73cfa12f-cfd0-4301-9be3-527792f2b9b0"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
